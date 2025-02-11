@@ -120,7 +120,7 @@ body {
 .card-container{
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 10px;
 }
 
@@ -146,17 +146,18 @@ body {
   font-size: 2vh;
   display: flex;
   justify-content: flex-start;
+  align-content:flex-start;
   font-family: 'Permanent Marker', cursive;
+  margin: 5px;
+  
 }
 
 .card{
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
-  text-align: center;
   width: 200px;
   height: 100px;
-  background-color: #abe9c1;
   border-radius: 0.2rem;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.6);
   margin: 15px;
@@ -167,4 +168,5 @@ body {
   font-size: 1.5vh;
   font-family: 'Permanent Marker', cursive;
   color: #4c4c4c;
+  margin: 5px;
 }
